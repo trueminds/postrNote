@@ -1,0 +1,30 @@
+{
+  "name": "webpack-handbook",
+  "version": "1.0.0",
+  "description": "Webpack Handbook",
+  "main": "index.js",
+  "scripts": {
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "add": "all-contributors add",
+    "generate": "all-contributors generate",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua1988/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshua1988/webpack/issues"
+  },
+  "homepage": "https://github.com/joshua1988/webpack#readme",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.1.0",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "all-contributors-cli": "^6.9.1",
+    "vuepress": "^1.0.3"
+  }
+}
